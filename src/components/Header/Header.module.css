@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Header p {
+  font-weight: 700;
+}
+
+.Header__logo {
+  color: black;
+  background-color: rgb(236, 205, 26);
+  font-family: "Teko", sans-serif;
+  font-size: 1.7rem;
+  margin: 0;
+  padding: 0 0.4rem;
+  border-radius: 0.2rem;
+  height: 2.1rem;
+  text-decoration: none;
+}
+
+.Header__Menu {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.Header__search {
+  display: flex;
+  align-items: center;
+}
+
+.Header__input {
+  outline: none;
+  padding: 0.4rem;
+  width: 40rem;
+  border-radius: 0.5rem;
+}
+
+.Header__pro {
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.Header__pro span {
+  color: rgb(51, 197, 243);
+}
+
+.Header__divider {
+  margin: 0;
+  color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  width: 1px;
+  height: 2rem;
+}

@@ -1,0 +1,38 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.Footer__social{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Footer__options{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.Footer__options p{
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.Footer__parentCompany{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.Footer__copyright{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}

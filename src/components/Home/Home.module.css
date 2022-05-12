@@ -1,0 +1,93 @@
+.Home{
+  margin-bottom: 1rem;
+}
+
+.Home__title {
+  font-size: 2rem;
+  color: #f3ce13;
+  letter-spacing: 0.00735em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.Home__contentOne {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.Home__contentPone {
+  color: white;
+  font-size: 1.7rem;
+  letter-spacing: 0.00735em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.Home__contentPtwo {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  letter-spacing: 0.00735em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.Home__contentPthree {
+  font-size: 1rem;
+  color: royalblue;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.Home__movies {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  position: relative;
+}
+
+.Home__watchlist {
+  text-align: center;
+  color: white;
+  margin: 2rem;
+}
+
+.Home__watchlist p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.Home__link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Home__addLink {
+  color: black;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color: #f3ce13;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.Home__watchlist button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color: #f3ce13;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,110 @@
+.MovieDetails__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.MovieDetails__title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.MovieDetails__runtime {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.MovieDetails__poster {
+  width: 20rem;
+}
+
+.MovieDetails__popularity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.MovieDetails__pOne {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.MovieDetails__rate {
+  display: flex;
+  align-items: center;
+}
+
+.MovieDetails__star {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.MovieDetails__rating {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.MovieDetails__count {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.MovieDetails__genres {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.MovieDetails__genre {
+  border: 2px solid white;
+  border-radius: 3rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.MovieDetails__overview {
+  margin: 0;
+}
+
+.MovieDetails__section2{
+    margin-bottom: 5rem;
+}
+
+.MovieDetails__castCrew {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.MovieDetails__job {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Job__title {
+  font-weight: 500;
+}
+
+.Job__name {
+  color: rgb(87, 153, 239);
+}
+
+.MovieDetails__cast {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+}
+
+.Cast__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Cast__profile {
+  border-radius: 100%;
+  width: 6rem;
+}
